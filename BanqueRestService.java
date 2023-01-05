@@ -12,7 +12,7 @@ public class BanqueRestService {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String Test () {
-		return "Bonjour, tout le monde";
+		return "Bonjour, tout le monde, comment allez vous?";
 	}
 	@GET
 	@Produces(MediaType.TEXT_HTML)
